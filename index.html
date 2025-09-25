@@ -2,10 +2,25 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Hola mundo</title>
-</head>
-<body>
-  <h1>Hola mundo</h1>
-  <img src="imagen.jpg" alt="Imagen de prueba" width="300">
-</body>
-</html>
+    <title>Imagen fullscreen</title>
+      <style>
+          html, body {
+                margin: 0;
+                      padding: 0;
+                            height: 100%;
+                                  width: 100%;
+                                        overflow: hidden;
+                                              background: #000; /* bordes negros si la imagen no llena todo */
+                                                  }
+                                                      img {
+                                                            height: 100%;
+                                                                  width: 100%;
+                                                                        object-fit: contain; /* mantiene proporción, sin deformarse */
+                                                                              display: block;
+                                                                                  }
+                                                                                    </style>
+                                                                                    </head>
+                                                                                    <body>
+                                                                                      <img src="https://i.postimg.cc/Xqbt08R6/Casos-de-Presencia-de-Para-sitos-por-Lote.png" alt="Imagen fullscreen">
+                                                                                      </body>
+                                                                                      </html>
